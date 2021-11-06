@@ -22,7 +22,7 @@ def get_filters():
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
-    print('Hi!, looking to get some information?')
+    print('Hi!, Are you looking to get some information?')
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
         city = input("What city are you interested in getting stats on? the options are 'chicago', 'new york city' or 'washington'\n").lower()
@@ -76,7 +76,7 @@ def load_data(city, month, day):
     df['month'] = df['Start Time'].dt.month
     df['day_of_week'] = df['Start Time'].dt.day_name()
     df['Start hour']= df['Start Time'].dt.hour
-   
+
 
     # filter by month if applicable
     if month != 'all':
@@ -101,12 +101,12 @@ def display_raw_data(df):
     while more == 'yes':
         n +=5
         print(df.iloc[n-5:n,:])
-        more = input('do you want to see another set of rows?\n').lower()        
-        
-        
-        
-        
-        
+        more = input('do you want to see another set of rows?\n').lower()
+
+
+
+
+
 def time_stats(df,month,day):
     """Displays statistics on the most frequent times of travel."""
 

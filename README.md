@@ -10,7 +10,7 @@ Bikeshare
 This project helps to give the stats on the bikeshare data
 
 ### Files used
-I used the bikeshare city dataset for chicago, new-york city and washington that contained the stats for 6 months
+I used the bikeshare city dataset for Chicago, New-York City and Washington that contained the stats for 6 months
 
 ### Credits
 (stackoverflow)[http//:stackoverflow.com]
