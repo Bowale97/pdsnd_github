@@ -22,7 +22,7 @@ def get_filters():
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
-    print('Hi!, Are you looking to get some information?')
+    print('Hi!, looking to get some information, init?')
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
         city = input("What city are you interested in getting stats on? the options are 'chicago', 'new york city' or 'washington'\n").lower()
